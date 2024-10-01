@@ -1,0 +1,81 @@
+/* This is demo purpose Body CSS */
+.demo {
+    font-family: "Open Sans", sans-serif;
+    background: #f0ffff;
+}
+/* Smartphones (portrait and landscape) --  --  --  --  -- - */
+@media screen
+and (min-width: 304px) 
+and (max-width: 667px) {
+    /* Styles */
+	.box-title
+{
+	top: 5% !important;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	left: 15%;
+	right: 15%;
+	color: #fff;
+}
+h1
+{
+font-size:18px;
+}
+h2
+{
+font-size:15px;
+}
+.main-inner img
+{
+margin-bottom:20px;
+}
+}
+/* iPads (portrait and landscape) --  --  --  --  -- - */
+@media screen
+and (min-width: 668px)
+and (max-width: 1223px) {
+    /* Styles */
+	.box-title
+{
+	top: 10%;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	left: 15%;
+	right: 15%;
+	color: #fff;
+}
+h1
+{
+font-weight:800;
+}
+}
+
+/* Desktops and laptops --  --  --  --  -- - */
+@media screen and (min-width: 1224px) {
+    /* Styles */
+.box-title
+{
+	top: 30%;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	left: 15%;
+	right: 15%;
+	color: #fff;
+}
+h1
+{
+font-weight:800;
+}
+
+}
+.main-inner img:hover
+{
+opacity:0.8;
+border:1px solid #333;
+}
