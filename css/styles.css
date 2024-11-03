@@ -1346,7 +1346,7 @@ input[type='checkbox'] {
 	padding: 0.3125rem 1.375rem 0.25rem 1.375rem;
 	border-radius: 0.25rem;
 	background-color: #f1f4f7;
-	color: #7b7e85;
+	color: #040404;
 	font: 700 0.75rem/1.25rem "Montserrat", sans-serif;
 	cursor: pointer;
 	transition: all 0.2s ease;
@@ -1358,8 +1358,8 @@ input[type='checkbox'] {
 }
 
 .filter .button-group a.button.is-checked {
-	background-color: #035c2e;
-	color: #fff;
+	background-color: #f1f4f7;
+	color: #040404;
 }
 
 .filter .grid {
